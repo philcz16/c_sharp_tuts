@@ -7,7 +7,9 @@ namespace GradeBook
     {
         static void Main(string[] args)
         { 
-
+            var maxMin = new max_min();
+            maxMin.max_min_grade();
+           
             var book = new Book();
             book.AddGrade(89.1);
             book.AddGrade(90.5);
