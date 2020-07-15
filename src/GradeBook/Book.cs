@@ -9,7 +9,7 @@ public Book(){
 }
 public void AddGrade(double grade)
 {
-
+ 
 grades.Add(grade);
 }
 List<double> grades; 
